@@ -1,0 +1,165 @@
+@import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
+                
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Averta-Regular', sans-serif;
+    color: #514949;
+}
+
+.zuri-logo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 69px;
+    margin-bottom: 69px;
+}
+
+.hero{
+    margin: auto;
+    max-width: 700px;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 800;
+    color: #514949;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.hero p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    margin-bottom: 92px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #E7332B;
+}
+
+.btns{
+    /* margin: 0 auto; */
+    margin-bottom: 220px;
+}
+
+.btns .btn-one{
+    display: inline-block;
+    padding: 13px 30px;
+    border: 1px solid #E7332B;
+    margin-right: 20px;
+    color: #fff;
+    background-color: #E7332B;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btns .btn-one:hover{
+    background-color: #fff;
+    color: #E7332B;
+    transition: all 0.3s ease-in-out;
+}
+
+.btns .btn-two{
+    display: inline-block;
+    padding: 13px 30px;
+    border: 1px solid #E7332B;
+    color: #E7332B;
+    background-color: transparent;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btns .btn-two:hover{
+    background-color: #E7332B;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+section .programs{
+   background-color: #fff;
+    margin-top: 100px;
+    
+} 
+
+.container{
+    margin:  auto;
+    max-width: 700px;
+    text-align: center;
+}
+
+.programs h3{
+    color: #E7332B;
+    margin-bottom: 20px;
+}
+
+.programs .slang{
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+
+.container-fluid{
+    margin-bottom: 100px !important;
+}
+
+.card{
+    background-color:#FFFAFA;
+    padding: 35px;
+    margin-left: 18px;
+}
+
+.card img{
+    width:8rem;
+    margin-left: 18px;
+}
+
+
+.footer-section{
+    margin-top: 215px;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+}
+
+.my-container{
+    max-width: 1240px !important;
+}
+
+footer hr {
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+    width: 90%;
+    margin:auto;
+    
+}
+
+.copyright{
+    margin-bottom: 150px;
+}
+
+
+
+/* Training section */
+
